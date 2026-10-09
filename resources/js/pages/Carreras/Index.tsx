@@ -97,7 +97,7 @@ export default function Index({
     const eliminar = (id: number) => { if (confirm('¿Está seguro de eliminar esta carrera?')) { router.delete(`/carreras/${id}`); } };
     return (
         <div>
-            <h1>Carreras</h1>
+            <h1>Lista de Carreras</h1>
 
             <Link href="/carreras/create">
                 Nueva carrera
